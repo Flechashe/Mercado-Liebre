@@ -1,0 +1,18 @@
+{
+  "name": "mercado-liebre",
+  "version": "1.0.0",
+  "description": "Proyecto de copia de la página de Mercado Libre para aprender HTML, CSS y relacionados.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "keywords": [],
+  "author": "Flechashe",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}

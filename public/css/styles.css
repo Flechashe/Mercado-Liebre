@@ -1,0 +1,120 @@
+h2 {
+  font-size: 24px;
+}
+
+nav {
+  display: none;
+}
+
+footer {
+  text-align: center;
+  color: #666;
+  background-color: white;
+  margin-top: 10px;
+}
+
+footer i {
+  color: #1259c3;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+footer h4 {
+  font-size: 15px;
+  margin: 0px;
+}
+
+footer p {
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  width: 70%;
+  
+}
+
+footer .fa-credit-card {
+  margin-top: 10px;
+}
+
+.page-end {
+  margin-bottom: 5px;
+}
+
+.burger-menu {
+  width: 39px;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+.burger-menu i {
+  width: 100%;
+  font-size: 2em;
+  text-align: center;
+  padding: 7px;
+  color: white;
+  background-color: #1259c3;
+  border-radius: 5px;
+}
+
+.product {
+  margin-bottom: 30px;
+}
+
+.product .product-content {
+  background-color: white;
+  border-top: solid 1px #ebebeb;
+  padding: 15px;
+}
+
+.product .product-content .price {
+  width: 30%;
+  font-size: 18px;
+}
+
+.product .product-content .discount {
+  width: 70%;
+  font-size: 16px;
+  color: #39b54a;
+}
+
+.product .product-content .product-description {
+  font-size: 16px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.fa-truck {
+  font-size: 1.5em;
+  color: #39b54a;
+  border: 1px solid #39b54a;
+  padding: 4px;
+  border-radius: 10000000000000000000px;
+}
+
+.product-description {
+  display: none;
+}
+
+@media (min-width: 361px) {
+  nav {
+    display: block;
+  }
+
+  .burger-menu {
+    display: none;
+  }
+
+  .product-description {
+    display: block;
+  }
+  
+  .product {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+}
+
+@media (min-width: 769px) {
+
+}
