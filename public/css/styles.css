@@ -96,12 +96,22 @@ footer .fa-credit-card {
 }
 
 .fa-truck {
-  font-size: 1.5em;
   color: #39b54a;
-  border: 1px solid #39b54a;
-  padding: 4px;
-  border-radius: 10000000000000000000px;
 }
+
+main section article i{
+  display: block;
+  font-size: 16px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #39b54a;
+  background-color: #FFF;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: -15px;
+  }
 
 .product-description {
   display: none;
@@ -133,12 +143,23 @@ footer .fa-credit-card {
     display: block;
   }
   
+.product-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
   .product {
+    width: 46%;
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
   }
 }
 
 @media (min-width: 769px) {
+  .product {
+    width: 23%;
+  }
+
   .main-header-top-bar {
     display: flex;
     justify-content: space-between;
