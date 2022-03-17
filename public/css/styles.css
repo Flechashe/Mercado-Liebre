@@ -108,9 +108,8 @@ main section article i{
   border: 1px solid #39b54a;
   background-color: #FFF;
   border-radius: 50%;
-  /* position: absolute; */
   position: relative;
-  right: 20px;
+  right: 15px;
   top: -15px;
   }
 
