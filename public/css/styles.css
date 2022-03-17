@@ -108,7 +108,8 @@ main section article i{
   border: 1px solid #39b54a;
   background-color: #FFF;
   border-radius: 50%;
-  position: absolute;
+  /* position: absolute; */
+  position: relative;
   right: 20px;
   top: -15px;
   }
@@ -120,6 +121,10 @@ main section article i{
 .main-header-text {
   font-size: 1.4em;
 }
+
+
+
+
 
 @media (min-width: 361px) {
   .main-navbar {
@@ -155,6 +160,10 @@ main section article i{
   }
 }
 
+
+
+
+
 @media (min-width: 769px) {
   .product {
     width: 23%;
@@ -174,6 +183,10 @@ main section article i{
     margin: 0 8px;
   }
 }
+
+
+
+
 
 @media (min-width: 1200px) {
   .logo {
